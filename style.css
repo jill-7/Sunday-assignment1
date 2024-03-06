@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  margin: 0 auto;
+  
+}
+@media screen and (min-width: 720px) {
+  body{
+    margin: 0 auto;
+    
+  }
+  
+}
+.images {
+  margin-top: 20px;
+  background-color: black;
+  width: 800px;
+  margin: 0 auto;
+  padding: 5px;
+  border-bottom: 6px solid #0A051B;
+  height: 75%;
+}
+
+.tablet {
+  position: relative;
+  margin-left: 30px;
+  margin-top: 14px;
+}
+.tablet img{
+  width: 430px;
+  height: 285px;
+  border-radius: 10px;
+
+}
+.tablet-text {
+  position: absolute;
+  top: 12%;
+  padding: 10px;
+}
+.tablet-text h4 {
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.tablet-text p {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Jost';
+}
+@font-face {
+  src: url("images/Jost-400-Book.ttf");
+  font-family: 'Jost';
+}
+/*graphics*/
+.graphics {
+  margin-left: 490px;
+  position: absolute;
+  top: 3%;
+}
+.graphics img {
+  height: 285px;
+  width: 280px;
+  border-radius: 10px;
+}
+.graphics-text {
+  position: absolute;
+  top: 12%;
+  color: white;
+  padding: 10px;
+}
+.graphics-text h4 {
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 8px;
+
+}
+.graphics-text p {
+  font-size: 25px;
+  font-weight: 500;
+  font-family: 'Jost';
+
+}
+/*accessibility*/
+.accessibility {
+  margin-left: 30px;
+  position: relative;
+  margin-top: 10px;
+}
+.accessibility img {
+  height: 180px;
+  width: 350px;
+  border-radius: 10px;
+
+}
+.accessibility-text {
+  position: absolute;
+  top: 12%;
+  padding: 10px;
+}
+.accessibility-text h4 {
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 8px;
+
+}
+.accessibility-text p {
+  font-size: 22px;
+  font-weight: bold;
+  font-family: 'Jost';
+
+}
+/*beta*/
+.beta {
+  margin-left: 30px;
+  position: relative;
+  margin-top: 10px;
+}
+.beta img {
+  height: 150px;
+  width: 350px;
+  border-radius: 10px;
+
+}
+.beta-text {
+  position: absolute;
+  top: 12%;
+  padding: 10px;
+  color: white;
+  padding: 10px;
+}
+.beta-text h4 {
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 8px;
+
+}
+.beta-text p {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Jost';
+  color: black;
+
+}
+/*creativity*/
+.creativity {
+  margin-left: 400px;
+  margin-top: -350px;
+  position: relative;
+}
+.creativity img {
+  border-radius: 10px;
+  width: 370px;
+  height: 348px;
+}
+.creativity-text {
+  position: absolute;
+  top: 12%;
+  color: white;
+  padding: 10px;
+}
+.creativity-text h4 {
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 8px;
+
+}
+.creativity-text p {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Jost';
+  
+
+}
+
+
+
